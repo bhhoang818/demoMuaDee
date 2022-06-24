@@ -12,40 +12,74 @@
 		<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	</head>
 	<body class="homepage">
-		<header> 
+		<header>
 			<nav class="navbar">
 				<div class="container">
 					<div class="navbar-collapse d-flex align-items-center" id="navbar"><a class="navbar-brand" href="/"> <img src="./images/logo.svg" alt=""></a>
 						<ul class="navbar-nav d-flex align-items-center"> 
-							<li class="nav-item"> <a class="nav-link" href="">Ưu điểm</a></li>
-							<li class="nav-item"> <a class="nav-link" href="">Đăng ký</a></li>
-							<li class="nav-item"> <a class="nav-link" href="">Tính năng</a></li>
-							<li class="nav-item"> <a class="nav-link" href="">Thương hiệu</a></li>
-							<li class="nav-item"> <a class="nav-link" href="">Đối tác</a></li>
+							<li class="nav-item"> <a class="nav-link" href="#one">Ưu điểm</a></li>
+							<li class="nav-item"> <a class="nav-link" href="#two">Đăng ký</a></li>
+							<li class="nav-item"> <a class="nav-link" href="#three">Tính năng</a></li>
+							<li class="nav-item"> <a class="nav-link" href="#four">Thương hiệu</a></li>
+							<li class="nav-item"> <a class="nav-link" href="#five">Đối tác</a></li>
 						</ul>
-						<div class="nav-button d-flex align-items-center"><a class="suport" href=""> <img src="./images/icons/messages.svg" alt=""></a><a class="download-app" href=""> <span>Tải ứng dụng</span></a></div>
+						<div class="nav-button d-flex align-items-center"><a class="suport" href=""> <img src="./images/icons/messages.svg" alt=""></a><a class="download-app" href=""> <span>Tải ứng dụng</span></a><a class="partner" href=""> <span>Trở thành đối tác của Muadee</span></a></div>
 					</div>
 				</div>
 			</nav>
 		</header>
-		<div id="wrapper">
-			<div id="content">
-				<main>
-					<section class="hero-banner" id="hero-section">
-						<div class="swiper-container bannerSwiper">
-							<div class="swiper-wrapper"> 
+		<main>
+			<div class="body-container-wrapper">
+				<div class="body-scrollable-area">
+					<section class="hero-banner" id="hero-banner">
+						<div class="bannerSwiper banner-desktop">
+							<div class="slide-inner banner-item">
+								<div class="slide-inner__content"> 
+									<div class="banner-desc">
+										<h1 class="big-txt"> <span class="midium-line">Mua đi, </span>đợi chi?</h1>
+										<p class="small-txt">Mua trước. Trả sau. Lãi suất 0%<br>cùng ứng dụng thanh toán thông minh của HD Bank</p>
+									</div>
+									<div class="qr-code d-flex align-items-center">
+										<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
+									</div>
+								</div>
+								<div class="slide-inner__img"> <a href=""> <img src="./images/banner/b-1.png" alt=""></a></div>
+							</div>
+							<div class="slide-inner banner-item">
+								<div class="slide-inner__content"> 
+									<div class="banner-desc">
+										<h1 class="big-txt">Giảm ngay <span class="short-line">50k </span><br>cho đơn hàng <br>đầu tiên</h1>
+									</div>
+									<div class="qr-code d-flex align-items-center"> 
+										<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
+									</div>
+								</div>
+								<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-2.png" alt=""></a></div>
+							</div>
+							<div class="slide-inner banner-item">
+								<div class="slide-inner__content"> 
+									<div class="banner-desc">
+										<h1 class="big-txt">Nhận ngay hạn<br>mức đến <span class="midium-line">15 triệu</span></h1>
+									</div>
+									<div class="qr-code d-flex align-items-center"> 
+										<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
+									</div>
+								</div>
+								<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-3.png" alt=""></a></div>
+							</div>
+						</div>
+						<div class="bannerSwiper swiper banner-mobile">
+							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="slide-inner">
 										<div class="slide-inner__content"> 
 											<div class="banner-desc">
-												<h1 class="big-txt"> <span class="long-line">Mua đi, </span>đợi chi?</h1>
-												<p class="small-txt">Mua trước. Trả sau. Lãi suất 0%<br>cùng ứng dụng thanh toán thông minh của HD Bank</p>
+												<h1 class="big-txt"> <span class="short-line">Mua đi, </span>đợi chi?</h1>
+												<p class="small-txt">Mua trước. Trả sau. Lãi suất 0%<br>cùng ứng dụng thanh toán thông <br>minh của HD Bank</p>
 											</div>
-											<div class="qr-code d-flex align-items-center">
-												<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
-											</div>
+											<div class="download-app"><a class="btn btn-download" href=""> <span>Tải ngay</span></a><a class="readmore" href="">Tìm hiểu thêm</a></div>
 										</div>
-										<div class="slide-inner__img"> <a href=""> <img src="./images/banner/b-1.jpg" alt=""></a></div>
+										<div class="slide-inner__img"> <a href=""> <img src="./images/banner/b-1.png" alt=""></a></div>
 									</div>
 								</div>
 								<div class="swiper-slide">
@@ -54,34 +88,32 @@
 											<div class="banner-desc">
 												<h1 class="big-txt">Giảm ngay <span class="short-line">50k </span><br>cho đơn hàng <br>đầu tiên</h1>
 											</div>
-											<div class="qr-code d-flex align-items-center"> 
-												<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
-											</div>
 										</div>
-										<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-2.jpg" alt=""></a></div>
+										<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-2.png" alt=""></a></div>
 									</div>
 								</div>
 								<div class="swiper-slide">
 									<div class="slide-inner">
 										<div class="slide-inner__content"> 
 											<div class="banner-desc">
-												<h1 class="big-txt">Nhận ngay hạn<br>mức đến <span class="long-line">15 triệu</span></h1>
-											</div>
-											<div class="qr-code d-flex align-items-center"> 
-												<div class="icon"><img src="./images/banner/QRCODE.svg" alt=""></div><a href="">Tìm hiểu thêm</a>
+												<h1 class="big-txt">Nhận ngay hạn<br>mức đến <span class="short-line">15 triệu</span></h1>
 											</div>
 										</div>
-										<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-3.jpg" alt=""></a></div>
+										<div class="slide-inner__img"><a href=""> <img src="./images/banner/b-3.png" alt=""></a></div>
 									</div>
 								</div>
 							</div>
+							<div class="button-swiper"> 
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
 						</div>
 					</section>
-					<section class="hero-section home-1">
+					<section class="hero-section home-1" id="one">
 						<div class="container"> 
-							<h2 class="hero-title text-center mb-5">Muadee <img src="./images/icons/heart.svg" alt="">&nbsp;Bạn</h2>
+							<h2 class="hero-title text-center mb-5 gs_reveal gs_reveal_fromTop">Muadee <img src="./images/icons/heart.svg" alt="">&nbsp;Bạn</h2>
 							<div class="group-card d-flex align-items-center justify-content-center flex-column">
-								<div class="card-item d-flex align-items-center justify-content-start flex-column mb-3"> 
+								<div class="card-item gs_reveal gs_reveal_fromLeft d-flex align-items-center justify-content-start flex-column mb-3" data-aos="fade-up"> 
 									<div class="card-item_img"> <img src="./images/mua_sam_1.png" alt=""></div>
 									<div class="card-item_content">
 										<div class="card-item_content--title text-center">
@@ -92,7 +124,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="card-item d-flex align-items-center justify-content-start flex-column mb-3"> 
+								<div class="card-item gs_reveal gs_reveal_fromRight d-flex align-items-center justify-content-start flex-column mb-3" data-aos="fade-up"> 
 									<div class="card-item_img"> <img src="./images/mua_sam_2.png" alt=""></div>
 									<div class="card-item_content">
 										<div class="card-item_content--title text-center"> 
@@ -103,7 +135,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="card-item d-flex align-items-center justify-content-center flex-column"> 
+								<div class="card-item gs_reveal gs_reveal_fromLeft d-flex align-items-center justify-content-center flex-column" data-aos="fade-up"> 
 									<div class="card-item_img"> <img src="./images/mua_sam_3.png" alt=""></div>
 									<div class="card-item_content">
 										<div class="card-item_content--title text-center"> 
@@ -119,9 +151,9 @@
 					</section>
 					<section class="hero-section home-2">
 						<div class="container"> 
-							<h2 class="hero-title text-center mb-5">Quyền lợi tốt nhất</h2>
+							<h2 class="hero-title gs_reveal gs_reveal_fromTop text-center mb-5">Quyền lợi tốt nhất</h2>
 							<div class="wrapper-under d-flex flex-column justify-content-center align-items-center"> 
-								<div class="wrap-content d-flex flex-column justify-content-center align-items-end"> 
+								<div class="wrap-content gs_reveal gs_reveal_fromTop d-flex flex-column justify-content-center align-items-end"> 
 									<div class="position-img"> <img src="./images/illus.png" alt=""></div>
 									<ul class="article"> 
 										<li>
@@ -135,12 +167,12 @@
 										</li>
 									</ul>
 								</div>
-								<div class="wrap-img"> <img src="./images/ql-1.png" alt=""></div>
+								<div class="wrap-img gs_reveal gs_reveal_fromTop"> <img src="./images/ql-1.png" alt="alt"></div>
 							</div>
 							<div class="wrapper-above"> 
 								<div class="group-grid"> 
 									<div class="row"> 
-										<div class="col-6 wrap-left"> 
+										<div class="col-12 col-lg-6 wrap-left gs_reveal gs_reveal_fromLeft"> 
 											<div class="grid-item"> 
 												<div class="img"> <img src="./images/zero.png" alt=""></div>
 												<div class="content"> 
@@ -159,9 +191,9 @@
 												</div>
 											</div>
 										</div>
-										<div class="col-6 wrap-right"> 
+										<div class="col-12 col-lg-6 wrap-right"> 
 											<div class="row">
-												<div class="col-12 mb-3">
+												<div class="col-12 mb-3 gs_reveal gs_reveal_fromRight">
 													<div class="grid-item"> 
 														<div class="img"> <img src="./images/vouchers.png" alt=""></div>
 														<div class="content"> 
@@ -169,7 +201,7 @@
 														</div>
 													</div>
 												</div>
-												<div class="col-12">
+												<div class="col-12 gs_reveal_fromRight">
 													<div class="grid-item"> 
 														<div class="img"> <img src="./images/200.png" alt=""></div>
 														<div class="content"> 
@@ -184,11 +216,11 @@
 							</div>
 						</div>
 					</section>
-					<section class="hero-section home-3">
+					<section class="hero-section home-3" id="two">
 						<div class="container"> 
-							<h2 class="hero-title text-center mb-5">Dễ dàng và bảo mật</h2>
+							<h2 class="hero-title gs_reveal gs_reveal_fromTop text-center mb-5">Dễ dàng và bảo mật</h2>
 							<div class="wrapper-container d-flex align-items-center m-auto">
-								<div class="wrap-left">
+								<div class="wrap-left gs_reveal gs_reveal_fromLeft">
 									<p class="sub-title mb-4">Đăng ký online</p>
 									<ul>
 										<li> 
@@ -203,9 +235,9 @@
 									</ul><a class="btn btn-default" href=""> 
 										<p>Hướng dẫn đăng ký</p><img src="./images/icons/arrow_chevron_forward.svg" alt=""></a>
 								</div>
-								<div class="wrap-right"> 
-									<div class="mobile-wrapper"> 
-										<video id="myVideo" width="100%" height="100%" autoplay playsinline poster="./images/sign-up.png">
+								<div class="wrap-right gs_reveal gs_reveal_fromRight"> 
+									<div class="mobile-wrapper vid">
+										<video id="vid" width="100%" height="100%" muted playsinline poster="./images/sign-up.png">
 											<source src="./images/video.mp4" type="video/mp4">
 										</video>
 									</div>
@@ -213,36 +245,33 @@
 							</div>
 						</div>
 					</section>
-					<section class="hero-section home-4 horizontal"> 
+					<section class="hero-section home-4" id="three">
 						<div class="wrapper-container">
-							<div class="pin-wrap">
-								<div class="animation-wrap to-right">
-									<div class="item">
-										<h2 class="hero-title text-start mb-5">Tiện ích</h2>
-										<div class="content"> 
-											<h3>Mua trước, trả thong thả các<br>món hàng mơ ước...<br>với bộ tính năng được thiết kế<br><span>dành cho bạn</span></h3><a class="btn btn-default" href=""> 
-												<p>Thanh toán với Muadee</p><img src="./images/icons/arrow_chevron_forward.svg" alt=""></a>
-										</div>
+							<div class="wrapper-grid panels-container">
+								<div class="panels grid-item">
+									<h2 class="hero-title text-start mb-5">Tiện ích</h2>
+									<div class="content"> 
+										<h3 class="mb-3">Mua trước, trả thong thả các món hàng mơ ước...với bộ tính năng được thiết kế<span class="long-line">&nbsp;dành cho bạn</span></h3><a class="btn btn-default btn-default_yellow" href=""> <span>Thanh toán với Muadee</span><img src="./images/icons/arrow_chevron_forward.svg" alt=""></a>
 									</div>
-									<div class="item">
-										<div class="img"> <img src="./images/iPhone_1.png" alt=""></div>
-										<div class="content"> 
-											<p>Quản lý thanh toán <br>với công cụ nhắc hạn <br>tiện dụng.</p>
-										</div>
+								</div>
+								<div class="panels grid-item">
+									<div class="img"> <img class="desktop" src="./images/iPhone_1.png" alt=""><img class="mobile" src="./images/iPhone_1-mb.png" alt=""></div>
+									<div class="content"> 
+										<p>Quản lý thanh toán với công cụ nhắc hạn tiện dụng.</p>
 									</div>
-									<div class="item">
-										<div class="img"> <img src="./images/iPhone_2.png" alt=""></div>
-										<div class="content"> 
-											<p>Theo dõi lịch sử mua hàng<br>và trả tiền ngay<br>trên ứng dụng.</p>
-										</div>
+								</div>
+								<div class="panels grid-item">
+									<div class="img"> <img class="desktop" src="./images/iPhone_2.png" alt=""><img class="mobile" src="./images/iPhone_2-mb.png" alt=""></div>
+									<div class="content"> 
+										<p>Theo dõi lịch sử mua hàng và trả tiền ngaytrên ứng dụng.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
-					<section class="hero-section home-5"> 
+					<section class="hero-section home-5" id="four"> 
 						<div class="container"> 
-							<h2 class="hero-title text-center mb-5">Mua sắm với Muadee</h2>
+							<h2 class="hero-title gs_reveal gs_reveal_fromTop text-center mb-5">Mua sắm với Muadee</h2>
 							<div class="swiper-container mySwiper">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
@@ -295,7 +324,7 @@
 							</div>
 						</div>
 					</section>
-					<section class="hero-section home-6"> 
+					<section class="hero-section home-6 jump-section">
 						<div class="wrapper-container"> 
 							<ul> 
 								<li> 
@@ -308,10 +337,10 @@
 									<p>Không lãi suất.</p>
 								</li>
 							</ul>
-							<div class="img d-flex flex-column"><img class="qr-code" src="./images/banner/QRCODE.svg" alt=""><span>Mua sắm tại bất cứ đâu ngay hôm nay</span></div>
+							<div class="img d-flex flex-column"><img class="qr-code" src="./images/banner/QRCODE.svg" alt=""><span>Mua sắm tại bất cứ đâu ngay hôm nay</span><a class="btn btn-default" href=""> <span>Tải ngay</span></a></div>
 						</div>
 					</section>
-					<section class="hero-section home-7"> 
+					<section class="hero-section home-7 jump-section" id="five">
 						<div class="wrapper-container"> 
 							<div class="panel">
 								<div class="panel-heading d-flex align-items-center"> 
@@ -324,7 +353,7 @@
 										<li> 
 											<p>Tăng doanh số bán hàng</p>
 										</li>
-										<li> <img src="./images/icons/box-1.svg" alt=""></li>
+										<li> <img src="./images/icons/box-1.png" alt=""></li>
 										<li> 
 											<p>Tăng tỉ lệ chuyển đổi</p>
 										</li>
@@ -332,40 +361,44 @@
 										<li> 
 											<p>Mở rộng tệp khách hàng</p>
 										</li>
-									</ul><a class="btn btn-default" href=""> <span>Liên hệ ngay</span></a>
+									</ul><a class="btn btn-default" href=""> 
+										<p>Liên hệ ngay</p></a>
 								</div>
 							</div>
 						</div>
 					</section>
-				</main>
-				<footer class="footer d-flex align-items-center">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-6"><a class="logo-footer" href=""> <img src="./images/logo.svg" alt=""></a></div>
-							<div class="col-12 col-md-6">
-								<div class="panel">
-									<div class="panel-body">
-										<ul>
-											<li><a href="">Giới thiệu về Muadee</a></li>
-											<li><a href="">Điều khoản sử dụng</a></li>
-											<li><a href="">Chính sách bảo mật</a></li>
-											<li><a href="">Đăng ký hợp tác với Muadee</a></li>
-										</ul>
+					<section class="footer d-flex align-items-center jump-section">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-6"><a class="logo-footer" href=""> <img src="./images/logo.svg" alt=""></a></div>
+								<div class="col-12 col-md-6">
+									<div class="panel">
+										<div class="panel-body">
+											<ul>
+												<li><a href="">Giới thiệu về Muadee</a></li>
+												<li><a href="">Điều khoản sử dụng</a></li>
+												<li><a href="">Chính sách bảo mật</a></li>
+												<li><a href="">Đăng ký hợp tác với Muadee</a></li>
+											</ul>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="social-list"> <a href=""> <em class="fa-brands fa-facebook"></em></a><a href=""> <em class="fa-brands fa-youtube"></em></a></div>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="download-app"> <a href=""> <img src="./images/chplay.png" alt=""></a><a href=""> <img src="./images/appstore.png" alt=""></a></div>
+								<div class="col-12 col-md-6">
+									<div class="social-list"> <a href=""> <em class="fa-brands fa-facebook"></em></a><a href=""> <em class="fa-brands fa-youtube"></em></a></div>
+								</div>
+								<div class="col-12 col-md-6">
+									<div class="download-app"> <a href=""> <img src="./images/chplay.png" alt=""></a><a href=""> <img src="./images/appstore.png" alt=""></a></div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</footer>
-				<div id="overlay"></div>
+					</section>
+				</div>
 			</div>
-		</div>
+			<div id="back-to-top"> <em class="material-icons">arrow_upward</em></div>
+		</main>
+		<div id="overlay"></div>
+		<script src="./js/plugins.min.js"> </script>
+		<script src="./js/main.min.js"> </script>
 		<script>LazyLoad=function(doc){var env,head,pending={},pollCount=0,queue={css:[],js:[]},styleSheets=doc.styleSheets;function createNode(name,attrs){var node=doc.createElement(name),attr;for(attr in attrs)attrs.hasOwnProperty(attr)&&node.setAttribute(attr,attrs[attr]);return node}function finish(type){var p=pending[type],callback,urls;p&&(callback=p.callback,(urls=p.urls).shift(),pollCount=0,urls.length||(callback&&callback.call(p.context,p.obj),pending[type]=null,queue[type].length&&load(type)))}function getEnv(){var ua=navigator.userAgent;((env={async:!0===doc.createElement("script").async}).webkit=/AppleWebKit\//.test(ua))||(env.ie=/MSIE|Trident/.test(ua))||(env.opera=/Opera/.test(ua))||(env.gecko=/Gecko\//.test(ua))||(env.unknown=!0)}function load(type,urls,callback,obj,context){var _finish=function(){finish(type)},isCSS="css"===type,nodes=[],i,len,node,p,pendingUrls,url;if(env||getEnv(),urls)if(urls="string"==typeof urls?[urls]:urls.concat(),isCSS||env.async||env.gecko||env.opera)queue[type].push({urls:urls,callback:callback,obj:obj,context:context});else for(i=0,len=urls.length;i<len;++i)queue[type].push({urls:[urls[i]],callback:i===len-1?callback:null,obj:obj,context:context});if(!pending[type]&&(p=pending[type]=queue[type].shift())){for(head||(head=doc.head||doc.getElementsByTagName("head")[0]),i=0,len=(pendingUrls=p.urls.concat()).length;i<len;++i)url=pendingUrls[i],isCSS?node=env.gecko?createNode("style"):createNode("link",{href:url,rel:"stylesheet"}):(node=createNode("script",{src:url})).async=!1,node.className="lazyload",node.setAttribute("charset","utf-8"),env.ie&&!isCSS&&"onreadystatechange"in node&&!("draggable"in node)?node.onreadystatechange=function(){/loaded|complete/.test(node.readyState)&&(node.onreadystatechange=null,_finish())}:isCSS&&(env.gecko||env.webkit)?env.webkit?(p.urls[i]=node.href,pollWebKit()):(node.innerHTML='@import "'+url+'";',pollGecko(node)):node.onload=node.onerror=_finish,nodes.push(node);for(i=0,len=nodes.length;i<len;++i)head.appendChild(nodes[i])}}function pollGecko(node){var hasRules;try{hasRules=!!node.sheet.cssRules}catch(ex){return void((pollCount+=1)<200?setTimeout((function(){pollGecko(node)}),50):hasRules&&finish("css"))}finish("css")}function pollWebKit(){var css=pending.css,i;if(css){for(i=styleSheets.length;--i>=0;)if(styleSheets[i].href===css.urls[0]){finish("css");break}pollCount+=1,css&&(pollCount<200?setTimeout(pollWebKit,50):finish("css"))}}return{css:function(urls,callback,obj,context){load("css",urls,callback,obj,context)},js:function(urls,callback,obj,context){load("js",urls,callback,obj,context)}}}(this.document);</script>
 		<script>
 			LazyLoad.css([
@@ -373,13 +406,6 @@
 				'./fonts/all.css'
 			], function () {
 			});
-		</script>
-		<script>
-			LazyLoad.js([
-				'./js/plugins.min.js',
-				'./js/main.min.js',
-			], function(){
-			})
 		</script>
 	</body>
 </html>
