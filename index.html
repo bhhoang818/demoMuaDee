@@ -12,7 +12,7 @@
 		<link rel="shortcut icon" type="image/png" href="favicon.ico">
 	</head>
 	<body class="homepage">
-		<header>
+		<header class="main-tool-bar">
 			<nav class="navbar">
 				<div class="navbar-collapse d-flex align-items-center" id="navbar"><a class="navbar-brand" href="/"> <img src="./images/logo.svg" alt=""></a>
 					<ul class="navbar-nav d-flex align-items-center"> 
@@ -107,7 +107,8 @@
 					</div>
 				</section>
 				<section class="hero-section home-1" id="one">
-					<div class="container"> 
+					<div class="bg active"></div>
+					<div class="container">
 						<h2 class="hero-title text-center mb-5 gs_reveal gs_reveal_fromTop">Muadee <img src="./images/icons/heart.svg" alt="">&nbsp;Bạn</h2>
 						<div class="group-card d-flex align-items-center justify-content-center flex-column">
 							<div class="card-item gs_reveal gs_reveal_fromLeft d-flex align-items-center justify-content-start flex-column mb-3" data-aos="fade-up"> 
@@ -260,7 +261,7 @@
 							<div class="panels grid-item">
 								<div class="img"> <img class="desktop" src="./images/iPhone_2.png" alt=""><img class="mobile" src="./images/iPhone_2-mb.png" alt=""></div>
 								<div class="content"> 
-									<p>Theo dõi lịch sử mua hàng và trả tiền ngaytrên ứng dụng.</p>
+									<p>Theo dõi lịch sử mua hàng và trả tiền ngay trên ứng dụng.</p>
 								</div>
 							</div>
 						</div>
@@ -321,74 +322,78 @@
 						</div>
 					</div>
 				</section>
-				<section class="hero-section home-6 jump-section">
-					<div class="wrapper-container"> 
-						<ul> 
-							<li> 
-								<p>Mua trước, trả sau.</p>
-							</li>
-							<li>
-								<p>Quản lý thanh toán.</p>
-							</li>
-							<li> 
-								<p>Không lãi suất.</p>
-							</li>
-						</ul>
-						<div class="img d-flex flex-column"><img class="qr-code" src="./images/banner/QRCODE.svg" alt=""><span>Mua sắm tại bất cứ đâu ngay hôm nay</span><a class="btn btn-default" href=""> <span>Tải ngay</span></a></div>
-					</div>
-				</section>
-				<section class="hero-section home-7 jump-section" id="five">
-					<div class="wrapper-container"> 
-						<div class="panel">
-							<div class="panel-heading d-flex align-items-center"> 
-								<div class="img"><img src="./images/biz.png" alt=""></div>
-								<h2 class="title">Bạn là<br>doanh nghiệp<br>bán lẻ?</h2>
-							</div>
-							<div class="panel-body">
-								<p class="desc">Hãy hợp tác với Muadee để cùng nhau:</p>
-								<ul class="d-flex align-items-center">
-									<li> 
-										<p>Tăng doanh số bán hàng</p>
-									</li>
-									<li> <img src="./images/icons/box-1.png" alt=""></li>
-									<li> 
-										<p>Tăng tỉ lệ chuyển đổi</p>
-									</li>
-									<li> <img src="./images/icons/order-1.png" alt=""></li>
-									<li> 
-										<p>Mở rộng tệp khách hàng</p>
-									</li>
-								</ul><a class="btn btn-default" href=""> 
-									<p>Liên hệ ngay</p></a>
-							</div>
+				<div class="sticky-section">
+					<section class="hero-section home-6">
+						<div class="wrapper-container"> 
+							<ul> 
+								<li> 
+									<p>Mua trước, trả sau.</p>
+								</li>
+								<li>
+									<p>Quản lý thanh toán.</p>
+								</li>
+								<li> 
+									<p>Không lãi suất.</p>
+								</li>
+							</ul>
+							<div class="img d-flex flex-column"><img class="qr-code" src="./images/banner/QRCODE.svg" alt=""><span>Mua sắm tại bất cứ đâu ngay hôm nay</span><a class="btn btn-default" href=""> <span>Tải ngay</span></a></div>
 						</div>
-					</div>
-				</section>
-				<section class="footer d-flex align-items-center jump-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-6"><a class="logo-footer" href=""> <img src="./images/logo.svg" alt=""></a></div>
-							<div class="col-12 col-md-6">
+					</section>
+					<div class="md-sticky">
+						<section class="hero-section home-7" id="five">
+							<div class="wrapper-container"> 
 								<div class="panel">
+									<div class="panel-heading d-flex align-items-center"> 
+										<div class="img"><img src="./images/biz.png" alt=""></div>
+										<h2 class="title">Bạn là<br>doanh nghiệp<br>bán lẻ?</h2>
+									</div>
 									<div class="panel-body">
-										<ul>
-											<li><a href="">Giới thiệu về Muadee</a></li>
-											<li><a href="">Điều khoản sử dụng</a></li>
-											<li><a href="">Chính sách bảo mật</a></li>
-											<li><a href="">Đăng ký hợp tác với Muadee</a></li>
-										</ul>
+										<p class="desc">Hãy hợp tác với Muadee để cùng nhau:</p>
+										<ul class="d-flex align-items-center">
+											<li> 
+												<p>Tăng doanh số bán hàng</p>
+											</li>
+											<li> <img src="./images/icons/box-1.png" alt=""></li>
+											<li> 
+												<p>Tăng tỉ lệ chuyển đổi</p>
+											</li>
+											<li> <img src="./images/icons/order-1.png" alt=""></li>
+											<li> 
+												<p>Mở rộng tệp khách hàng</p>
+											</li>
+										</ul><a class="btn btn-default" href=""> 
+											<p>Liên hệ ngay</p></a>
 									</div>
 								</div>
 							</div>
-							<div class="col-12 col-md-6">
-								<div class="social-list"> <a href=""> <em class="fa-brands fa-facebook"></em></a><a href=""> <em class="fa-brands fa-youtube"></em></a></div>
+						</section>
+						<section class="footer d-flex align-items-center">
+							<div class="wrapper-container">
+								<div class="row">
+									<div class="col-12 col-md-6"><a class="logo-footer" href=""> <img src="./images/logo.svg" alt=""></a></div>
+									<div class="col-12 col-md-6">
+										<div class="panel">
+											<div class="panel-body">
+												<ul>
+													<li><a href="">Giới thiệu về Muadee</a></li>
+													<li><a href="">Điều khoản sử dụng</a></li>
+													<li><a href="">Chính sách bảo mật</a></li>
+													<li><a href="">Đăng ký hợp tác với Muadee</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="social-list"> <a href=""> <em class="fa-brands fa-facebook"></em></a><a href=""> <em class="fa-brands fa-youtube"></em></a></div>
+									</div>
+									<div class="col-12 col-md-6">
+										<div class="download-app"> <a href=""> <img src="./images/chplay.png" alt=""></a><a href=""> <img src="./images/appstore.png" alt=""></a></div>
+									</div>
+								</div>
 							</div>
-							<div class="col-12 col-md-6">
-								<div class="download-app"> <a href=""> <img src="./images/chplay.png" alt=""></a><a href=""> <img src="./images/appstore.png" alt=""></a></div>
-							</div>
-						</div>
+						</section>
 					</div>
-				</section>
+				</div>
 			</div>
 			<div id="back-to-top"> <em class="material-icons">arrow_upward</em></div>
 		</main>
